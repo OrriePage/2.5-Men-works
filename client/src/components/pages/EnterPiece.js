@@ -59,9 +59,9 @@ class EnterPiece extends Component {
             
           
             
-            <div>
+            <h3>
             <Link to="/Results">Results</Link>
-            </div>
+            </h3>
             <div>
             <Link to="/Step1">Back to setup</Link>
             </div>

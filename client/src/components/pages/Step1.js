@@ -56,9 +56,9 @@ class Step1 extends Component {
 
             <h1>How many pieces did you do?</h1>
             <input defaultValue = "" onChange={this.ChangeNumber} />
-            <div>
+            <h3>
             {next}
-            </div>
+            </h3>
             <div>
             <Link to="/Profile">Cancel</Link>
             </div>
