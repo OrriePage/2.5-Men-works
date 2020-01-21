@@ -38,8 +38,10 @@ class Profile extends Component {
         <div class = "u-flex-justifyCenter u-textCenter u-flex-alignCenter">
         <body>
           <h1>Profile</h1>
+          <h2>Hi, [Your Name] </h2>
+          <h5>This would display your real name if the login were working</h5>
           <div>
-        <Link to="/History/" >go to History</Link>
+        <Link to="/History/">go to History</Link>
         </div>
         <div>
         <Link to="/Step1/" >add a new seatrace</Link>

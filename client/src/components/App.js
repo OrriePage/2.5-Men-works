@@ -25,6 +25,7 @@ class App extends Component {
     super(props);
     this.state = {
       userId: undefined,
+      test: 1,
     };
   }
 
@@ -42,7 +43,7 @@ class App extends Component {
     const userToken = res.tokenObj.id_token;
     post("/api/login", { token: userToken }).then((user) => {
       this.setState({ userId: user._id });
-      post("/api/initsocket", { socketid: socket.id });
+    //  post("/api/initsocket", { socketid: socket.id });
     });
   };
 
@@ -51,12 +52,12 @@ class App extends Component {
     post("/api/logout");
   };
 
+
+
   render() {
     return (
       <>
       <NavBar
-          handleLogin={this.handleLogin}
-          handleLogout={this.handleLogout}
           userId={this.state.userId}
         />
         <div className="App-container">
@@ -72,10 +73,13 @@ class App extends Component {
           <Step1 path="/Step1/"
           userId={this.state.userId}/>
           <EnterPiece path="/EnterPiece/"
-          userId={this.state.userId}/>
+          userId={this.state.userId}
+          number={this.state.test}/>
           <Results path="/Results/"
           userId={this.state.userId}/>
           <Login path="/"
+          handleLogin={this.handleLogin}
+          handleLogout={this.handleLogout}
           userId={this.state.userId}/>
           <NotFound default />
 

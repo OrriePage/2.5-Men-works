@@ -27,6 +27,7 @@ class Skeleton extends Component {
             <h1>
               Your results
             </h1>
+            <h4>To see how results will be computed look at the python file in the main folder</h4>
             <div>
             <Link to="/Profile">save</Link>
             </div>
