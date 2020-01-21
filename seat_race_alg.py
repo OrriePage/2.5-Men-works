@@ -1,3 +1,57 @@
+
+###############################################
+
+#To Edit ( in theory these would come as inputs
+
+###############################################
+
+
+piece1 = {'b1' : ["Orrie","Cooper","James","Ben"],
+'b2' : ["Alison","Ian","Sinan","Liam"],
+'win' : 1,
+'mar' : 21,
+'dis' : 2000,
+'p':1}
+
+
+piece2 = {'b1' : ["Alison","Cooper","James","Ben"],
+'b2' : ["Orrie","Ian","Sinan","Liam"],
+'win' : 1,
+'mar' : 12,
+'dis' : 2000,
+'p':2}
+
+piece3 = {'b1' : ["Alison","Cooper","Sinan","Ben"],
+'b2' : ["Orrie","Ian","James","Liam"],
+'win' : 2,
+'mar' : 3,
+'dis' : 1900,
+'p':3}
+
+piece4 = {'b1' : ["Alison","Cooper","Sinan","Liam"],
+'b2' : ["Orrie","Ian","James","Ben"],
+'win' : 2,
+'mar' : 14,
+'dis' : 2000,
+'p':4}
+
+piece5 = {'b1' : ["James","Cooper","Sinan","Liam"],
+'b2' : ["Orrie","Ian","Alison","Ben"],
+'win' : 1,
+'mar' : 2,
+'dis' : 1870,
+'p':5}
+
+
+all_pieces = [piece1,piece2,piece3,piece4,piece5]
+
+
+###################
+
+# the algorithm ( unfinished but working )
+
+##################
+
 import numpy as np
 from scipy.stats import norm
 
@@ -117,52 +171,7 @@ def run_full_boi(pieces):
     
     return
 
-###############################################
 
-#To Edit
-
-############################################### 
-
-
-
-piece1 = {'b1' : ["Orrie","Cooper","James","Ben"],
-'b2' : ["Alison","Ian","Sinan","Liam"],
-'win' : 1,
-'mar' : 21,
-'dis' : 2000,
-'p':1}
-
-
-piece2 = {'b1' : ["Alison","Cooper","James","Ben"],
-'b2' : ["Orrie","Ian","Sinan","Liam"],
-'win' : 1,
-'mar' : 12,
-'dis' : 2000,
-'p':2}
-
-piece3 = {'b1' : ["Alison","Cooper","Sinan","Ben"],
-'b2' : ["Orrie","Ian","James","Liam"],
-'win' : 2,
-'mar' : 3,
-'dis' : 1900,
-'p':3}
-
-piece4 = {'b1' : ["Alison","Cooper","Sinan","Liam"],
-'b2' : ["Orrie","Ian","James","Ben"],
-'win' : 2,
-'mar' : 14,
-'dis' : 2000,
-'p':4}
-
-piece5 = {'b1' : ["James","Cooper","Sinan","Liam"],
-'b2' : ["Orrie","Ian","Alison","Ben"],
-'win' : 1,
-'mar' : 2,
-'dis' : 1870,
-'p':5}
-
-
-all_pieces = [piece1,piece2,piece3,piece4,piece5]
 
 run_full_boi(all_pieces)
 
