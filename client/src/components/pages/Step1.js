@@ -66,7 +66,7 @@ class Skeleton extends Component {
               Input info on your piece
             </h1>
             <div>
-            <Link to="/">cancel</Link>
+            <Link to="/Profile">cancel</Link>
             </div>
 
             <p>Boat 1</p>

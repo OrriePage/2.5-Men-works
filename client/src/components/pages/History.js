@@ -28,7 +28,7 @@ class Skeleton extends Component {
               History!
             </h1>
             
-            <Link to="/">back to profile</Link>
+            <Link to="/Profile">back to profile</Link>
           </body>
         </div>
       </>

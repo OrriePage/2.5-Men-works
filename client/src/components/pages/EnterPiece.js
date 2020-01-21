@@ -50,7 +50,7 @@ class Skeleton extends Component {
             <Link to="/EnterPiece">back</Link>
             </div>
             <div>
-            <Link to="/">cancel</Link>
+            <Link to="/Profile">cancel</Link>
             </div>
           </body>
         </div>

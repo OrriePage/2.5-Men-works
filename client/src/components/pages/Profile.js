@@ -53,5 +53,3 @@ class Profile extends Component {
 }
 
 export default Profile;
-
-//<Link to="/page2/">CLick me to see a hippo!</Link>

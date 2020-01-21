@@ -28,7 +28,7 @@ class Skeleton extends Component {
               Your results
             </h1>
             <div>
-            <Link to="/">save</Link>
+            <Link to="/Profile">save</Link>
             </div>
             <div>
             <Link to="/EnterPiece">back</Link>

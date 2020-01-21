@@ -62,7 +62,7 @@ class App extends Component {
         <div className="App-container">
         <Router>
           <Profile
-            path="/"
+            path="/Profile"
             handleLogin={this.handleLogin}
             handleLogout={this.handleLogout}
             userId={this.state.userId}
@@ -75,7 +75,7 @@ class App extends Component {
           userId={this.state.userId}/>
           <Results path="/Results/"
           userId={this.state.userId}/>
-          <Login path="/Login/"
+          <Login path="/"
           userId={this.state.userId}/>
           <NotFound default />
 

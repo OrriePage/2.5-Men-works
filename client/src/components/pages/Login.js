@@ -30,7 +30,7 @@ class Skeleton extends Component {
             <h4>
               about
             </h4>
-            <Link to="/">Login</Link>
+            <Link to="/Profile">Login</Link>
           </body>
         </div>
       </>
