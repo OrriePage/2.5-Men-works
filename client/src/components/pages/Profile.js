@@ -8,7 +8,7 @@ import "./Profile.css";
 //TODO: REPLACE WITH YOUR OWN CLIENT_ID
 const GOOGLE_CLIENT_ID = "121479668229-t5j82jrbi9oejh7c8avada226s75bopn.apps.googleusercontent.com";
 
-class Skeleton extends Component {
+class Profile extends Component {
   constructor(props) {
     super(props);
     // Initialize Default State
@@ -38,9 +38,6 @@ class Skeleton extends Component {
         <div class = "u-flex-justifyCenter u-textCenter u-flex-alignCenter">
         <body>
           <h1>Profile</h1>
-          <div className="Profile-MyRowersContainer u-relative">
-            <MyRowers data={this.state.activeChat} />
-          </div>
           <div>
         <Link to="/History/" >go to History</Link>
         </div>
@@ -55,6 +52,6 @@ class Skeleton extends Component {
   }
 }
 
-export default Skeleton;
+export default Profile;
 
 //<Link to="/page2/">CLick me to see a hippo!</Link>
