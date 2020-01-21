@@ -1,0 +1,48 @@
+/* Fill me in :) */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,600");
+:root {
+    --primary: #008000;
+    --grey: #1e1e1e;
+    --white: #fff;
+    --backcol: #f2f2f2;
+  
+    --xs: 4px;
+    --s: 8px;
+    --m: 16px;
+    --l: 24px;
+  }
+
+
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 200;
+    background-color: var(--grey);
+    color: var(--white);
+}
+
+
+
+
+.u-textCenter{
+    text-align: center;
+  }
+
+.u-flex-justifyCenter {
+    justify-content: center;
+  }
+
+  .u-flex-alignCenter {
+    align-items: center;
+  }
+
+  .Profile-container {
+    height: calc(100vh - 120px);
+  }
+  
+  
+  .Profile-MyRowersContainer {
+    flex-grow: 1;
+  }
+ 
+
